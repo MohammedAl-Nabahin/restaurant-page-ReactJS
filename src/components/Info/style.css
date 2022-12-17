@@ -1,0 +1,25 @@
+.AboutInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.firstP{
+    font-weight: 700;
+    font-size: 30px;
+    width: 590px;
+    height: 65px;
+    margin-top: -30px;
+}
+
+
+.SecondP{
+    width: 580px;
+    height: 170px;
+    font-weight: 400;
+    letter-spacing: 0.13em;
+    font-size: 14px;
+    color: #fffffc;
+    margin-top: 45px;
+}

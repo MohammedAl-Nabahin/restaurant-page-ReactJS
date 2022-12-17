@@ -1,0 +1,68 @@
+.KitchenCard{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+}
+
+.data::before{
+    content: "";
+    border: 1px solid #FFCE6D;
+    background-color: #FFCE6D;
+    display: inline-block;
+    position: relative;
+    top: 34px;
+    width: 70%;
+    left: 200px;
+    
+}
+
+.Kcard{
+    width: 64px;
+    height: 64px;  
+    margin-right: 10px; 
+}
+
+.KCardP1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.KCardP2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: -10px;
+    color: #FFFFFF;
+}
+
+.line{
+    /* padding: 1px; */
+    border: 1px solid #FFCE6D;
+    background-color: #FFCE6D;
+    display: inline-block;
+}
+
+.KCardPrice{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+margin-left: 150px;
+color: #FFCE6D;
+
+}

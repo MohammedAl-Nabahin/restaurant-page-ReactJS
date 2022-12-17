@@ -1,0 +1,31 @@
+.header{
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+/* .HeaderBtn{
+    padding: 10px;
+    border: 1px solid #FFFCCC;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    width: 10rem;
+} */
+
+p{
+    color:#FFF;
+}
+
+h1{
+    color: #FFFCCC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    margin-left: 215px;
+    width: 45%;
+}
