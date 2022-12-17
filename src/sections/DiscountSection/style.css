@@ -1,0 +1,54 @@
+.discount{
+    display: flex;
+    flex-direction: row;
+    background: rgba(16, 20, 24, 0.7);
+    max-height: 320px;
+    overflow: hidden;
+    justify-content: center;
+    justify-self: center;
+}
+
+
+img{
+    max-height: 600px;
+}
+
+    .all{
+        margin-top: -45px;
+        display: flex;
+        justify-content: space-around;
+        width:150rem;
+        margin-left: 80px;
+
+    }
+.discountData{
+    margin-top: 50px;
+    margin-left: -100px;
+    margin-right: -50px;
+}
+
+.discountP{
+    font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+letter-spacing: 0.1em;
+width: 450px;
+color: #FFFFFC;
+
+}
+
+.discountPrice{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFCE6D;
+
+}

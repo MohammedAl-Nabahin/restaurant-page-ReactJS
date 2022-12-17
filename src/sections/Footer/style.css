@@ -1,0 +1,104 @@
+footer {
+    background: rgba(16, 20, 24, 0.7);
+    padding:5px 30px;
+    display: flex;
+}
+
+.Fdiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 70px auto;
+    gap: 70px;
+}
+
+.firstCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20vw;
+    gap: 6px;
+}
+
+.f1-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-left: -20px;
+}
+
+.f1-header p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.firstCol p {
+   text-align: left;
+}
+
+.Sicons{
+    display: flex;
+    gap: 10px;
+}
+
+.Sicons img{
+    cursor: pointer;
+}
+
+Footer img{
+    margin: -3px;
+}
+
+.secondCol li{
+    position: relative;
+    margin-bottom: 7px;
+}
+/* li{
+    list-style-type: circle;
+} */
+
+.secondCol li::before{
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:#FFFCCC;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+}
+
+
+.thirdCol p {
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 155.3%;
+/* or 25px */
+letter-spacing: 0.13em;
+text-transform: capitalize;
+align-items: center;
+color: #FFFFFC;
+text-align: left;
+}
+
+.title1{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}

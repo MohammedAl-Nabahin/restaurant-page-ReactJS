@@ -1,0 +1,29 @@
+.firstSec{
+    background-image:
+    linear-gradient(180deg, rgba(16, 20, 24, 0) 0%, #101418 100%),
+    url('../../images/Rectangle.png');
+    /* width: 100%; */
+    height: 115vh;
+    display: flex;
+    flex-direction: column;     
+    align-self: center;
+}
+.firstSec1{
+    background-color: transparent;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;     
+    align-self: center;
+}
+
+.firstSec .nav{
+    /* text-align: center; */
+    margin-top: 10rem;
+     align-items: center;
+}
+
+.firstSec .header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

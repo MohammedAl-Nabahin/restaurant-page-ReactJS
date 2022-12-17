@@ -1,0 +1,18 @@
+.cookSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:90px 150px;
+    height:60vh;
+}
+
+.cookSection p{
+    margin-top: -10px;
+}
+
+
+
+.cooking{
+    max-width: 455px;
+    max-height: 420px;
+}

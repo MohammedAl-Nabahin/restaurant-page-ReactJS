@@ -1,0 +1,29 @@
+.kitchenTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 95vh;
+}
+
+.leftCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourMenuH{
+    color: white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 117.3%;
+/* or 35px */
+margin-top: -20px;
+text-align: center;
+text-transform: capitalize;
+}

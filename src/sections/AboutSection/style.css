@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* width: 100%; */
+    gap: 100px;
+    margin:100px 170px;
+}
+
+.about .infoAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#mealImg{
+    max-width:402px;
+    max-height: 401px;
+    margin-top: 70px;
+}

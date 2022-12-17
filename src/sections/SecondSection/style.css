@@ -1,0 +1,9 @@
+.secondSection{
+    background-image: url(../../images/backgroundImg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+

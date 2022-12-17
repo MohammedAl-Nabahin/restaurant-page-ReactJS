@@ -1,0 +1,39 @@
+.bSec{
+    text-align: center;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120vh;
+}
+
+.Blogcards{
+    margin-top: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+#flip{
+    position: relative;
+}
+  
+#flip img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.blogH3{
+    margin-top: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 117.3%;
+    text-align: center;
+    text-transform: capitalize; 
+    color: #FFFFFC;
+}
+

@@ -1,0 +1,37 @@
+.subsecribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0 70px;
+    height: fit-content;
+    margin-top: -5px;
+}
+
+.subsecribe input {
+    border: 2px solid #FFFFCC;
+    color: var#FFFFCC;
+    outline: none;
+    background-color: transparent;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    width: 20vw;
+    margin-right: -100px;
+}
+
+.subsecribe input::placeholder{
+    padding-left: 30px;
+}
+
+.subsecribe p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}

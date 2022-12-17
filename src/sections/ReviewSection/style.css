@@ -1,0 +1,30 @@
+.reviewSec{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0; 
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.Rcards{
+    width: 280vh;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    transform: translateX(-270px);
+    overflow: hidden;
+}
+
+.revH3{
+margin-top: -20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 117.3%;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFC;
+}
